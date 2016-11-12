@@ -39,3 +39,4 @@ git add 		: Adds files to the staging area
 git status		: showes the status of the staging area
 git commit  	: Creates a commit
 git branch		: Creates a new branch
+git merge
