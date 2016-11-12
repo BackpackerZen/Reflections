@@ -1,0 +1,3 @@
+Commands
+git remote add [origin]		: Links the different
+git push [origin{master}]	: Pushes actual commit to Github
