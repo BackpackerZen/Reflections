@@ -8,9 +8,34 @@ How is the staging area different from the working directory and the repository?
 The staging area enables me to select which files I want to include into the commit. Logical commits and a finer selection are possible.
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+--
+With "git status" and "git diff".
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+--
+When experimenting with new features or versions. Branches enables different development paths.
+
+
+How do the diagrams help you visualize the branch structure?
+--
+Keeping track of all the different development stages.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+--
+A combined version of two branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+--
+Automatic merging increases efficency vs. manual merging enables better quality with costs in efficency.
+
 
 Commands:
 git init 		: Creates a new rpository
 git add 		: Adds files to the staging area
 git status		: showes the status of the staging area
-git commits 	: Creates a commit
+git commit  	: Creates a commit
+git branch		: Creates a new branch
