@@ -1,3 +1,11 @@
+When would you want to use a remote repository rather than keeping all your work local?
+--
+For storage and collaboration purposes.
+
+
 Commands
 git remote add [origin]		: Links the different
-git push [origin{master}]	: Pushes actual commit to Github
+git push [origin{master}]	: Pushes actual commit to GitHub
+git pull					: Gets the latest commit from Github
+git rm 						: Removes file from the commit
+git reset					: Resets file to actual commit status
