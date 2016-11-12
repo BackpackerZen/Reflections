@@ -3,9 +3,30 @@ When would you want to use a remote repository rather than keeping all your work
 For storage and collaboration purposes.
 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+--
+So you can work independent without interruptions on the project.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+--
+That you have access to your original commit after merging.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+--
+Using direct contact and sending back and forth files with individual requests. Would be way more time consuming!
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+--
+Creating new branches allows having a sustainable stabile version of the project while working at the same time at new features and ideas.
+
+
 Commands
 git remote add [origin]		: Links the different
 git push [origin{master}]	: Pushes actual commit to GitHub
 git pull					: Gets the latest commit from Github
 git rm 						: Removes file from the commit
 git reset					: Resets file to actual commit status
+fork 						: Cloning GitHub projects from other people
